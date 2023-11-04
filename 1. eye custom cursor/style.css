@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(30, 28, 28); */
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.eye {
+  background-color: whitesmoke;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+#eyeball1 {
+  background-color: black;
+  border: 10px solid grey;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  /* transform: translate(-50%, -50%); */
+
+
+}
+
+/* #eyeball2 {
+  background-color: black;
+  border: 10px solid grey;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+} */

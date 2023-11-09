@@ -19,12 +19,13 @@ main {
 }
 
 .eye {
-  background-color: whitesmoke;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid gray;
   height: 180px;
   width: 180px;
   border-radius: 50%;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 #eyeball1 {

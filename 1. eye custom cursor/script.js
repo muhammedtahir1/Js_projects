@@ -16,8 +16,8 @@ let body = document.querySelector('body')
 
 body.addEventListener('mousemove', (event) => {
   // console.log(event.x)
-  eyeball1.style.top = `${event.y}px`
-  eyeball1.style.left = `${event.x}px`
+  eyeball1.style.top = `${event.y * 100 / window.innerHeight}px`
+  eyeball1.style.left = `${event.x * 100 / window.innerWidth}px`
 })
 
 // let eyeball2 = document.getElementById("eyeball2")
